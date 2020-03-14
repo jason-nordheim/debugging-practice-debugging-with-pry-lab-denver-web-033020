@@ -14,6 +14,7 @@ def create_prefix(char, num_times)
   i = 0
   while i < num_times
     str += char
+    i += 1 
   end
   return str
 end
