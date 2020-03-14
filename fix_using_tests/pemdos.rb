@@ -2,7 +2,7 @@ require 'pry'
 
 def snake_it_up(string)
   if string[0] == "s"
-    result = create_prefix("s",10) + string)
+    result = create_prefix("s",10) + string
     return result
   else
     return string
